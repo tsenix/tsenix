@@ -209,10 +209,10 @@ h6 {
 .menu {
   position: fixed;
   z-index: 40;
-  top: 127px;
+  top: 100px;
   left: 0;
   width: 100vw;
-  height: calc(100vh - 127px);
+  height: calc(100vh - 100px);
   padding: 20px 20px 125px;
   background-color: #fff;
   overflow-y: auto;
@@ -599,14 +599,15 @@ h6 {
 .clients__body {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px 30px
+  gap: 10px 12px
 }
 .clients__item {
-  flex: 0 0 calc(33.333% - 20px);
+  flex: 0 0 calc(33.333% - 8px);
+  width: calc(33.333% - 8px);
   display: flex;
   align-items: center;
   justify-content: center;
-  aspect-ratio: 1.8/1;
+  aspect-ratio: 55/29;
   padding: 5px;
   box-shadow: 0 0 33px rgba(0,0,0,.07);
   border-radius: 8px
@@ -1377,7 +1378,7 @@ h6 {
   height: 4px
 }
 .platforms__body::-webkit-scrollbar-thumb {
-  background-color: #3970ff;
+  background-color: #e2e2e2;
   border-radius: 8px
 }
 .platforms__body::-webkit-scrollbar-track {
@@ -1487,7 +1488,8 @@ h6 {
     padding-top: 27%
   }
   .clients__item {
-    flex: 0 0 calc(25% - 22.5px)
+    flex: 0 0 calc(25% - 9px);
+    width: calc(25% - 9px)
   }
   .articles__item {
     flex: 0 0 calc(50% - 10px)
@@ -1668,7 +1670,8 @@ h6 {
     transform: translate(-50%,-50%) scale(1.05)
   }
   .clients__item {
-    flex: 0 0 calc(20% - 24px)
+    flex: 0 0 calc(20% - 9.6px);
+    width: calc(20% - 9.6px)
   }
   .feedbacks__pagination .swiper-pagination-bullet:hover::after {
     background-color: #3970ff
@@ -1818,7 +1821,9 @@ h6 {
     gap: 21px
   }
   .clients__item {
-    flex: 0 0 calc(16.666% - 17.5px)
+    flex: 0 0 calc(16.666% - 17.5px);
+    width: calc(16.666% - 17.5px);
+    aspect-ratio: 195/116
   }
   .feedbacks {
     padding: 40px 0
